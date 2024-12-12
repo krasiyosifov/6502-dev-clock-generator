@@ -141,7 +141,6 @@ void main(void)
                 generator_toggleMode();
             }            
         }
-        
     }
 }
 

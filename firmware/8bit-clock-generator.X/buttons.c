@@ -62,30 +62,6 @@ static void _updateState(button_state_t * buttonState, uint8_t pinHwState)
         
         buttonState->pressedCounter = 0;
     }
-    
-    
-//    // if button is pressed, it will read 0
-//    if (pinHwState == BUTTON_PRESSED) {
-//        if (buttonState->lastPinState == BUTTON_RELEASED) {
-//            buttonState->pressed = TRUE;
-//        } else {
-//            if (buttonState->pressedCounter < BUTTON_LONGPRESS_CNT) {
-//                buttonState->pressedCounter++;
-//            } else if (buttonState->pressedCounter != 0xFF) {
-//                buttonState->pressedCounter = 0xFF;
-//                buttonState->longPressed = TRUE;
-//            }
-//        }
-//        buttonState->lastPinState = BUTTON_PRESSED;
-//    } else {
-//        if (buttonState->lastPinState == BUTTON_PRESSED) {
-//            if (buttonState->pressedCounter != 0xFF) {
-//                buttonState->clicked = TRUE;
-//            }
-//        }
-//        buttonState->lastPinState = BUTTON_RELEASED;
-//        buttonState->pressedCounter = 0;
-//    }
 }
 
 
