@@ -4,3 +4,4 @@ debug/
 dist/
 private/
 *-backups
+*-cache
